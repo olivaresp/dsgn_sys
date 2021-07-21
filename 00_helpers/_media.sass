@@ -1,0 +1,19 @@
+
+// Min and Max declarations used as modifiers to @media queries
+$down-to: 'min-width'
+$up-to:   'max-width'
+
+// Custom breakpoints: Add or replace the following variables as your design needs.
+$break-sm:  576px
+$break-md:  769px
+$break-lg:  900px
+$break-xl:  1199px
+
+// Base media queries
+@media print
+  .hide-print
+    display: none !important
+
+@media screen
+  .only-print
+    display: none !important
